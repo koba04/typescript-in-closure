@@ -1,0 +1,29 @@
+{
+  "name": "typescript-in-closure",
+  "version": "1.0.0",
+  "description": "This is a sandbox repository for TypeScript in Google Closure",
+  "main": "index.js",
+  "scripts": {
+    "build": "sh script/build.sh",
+    "build:deps": "closure-make-deps --no-validate --root src --closure-path './node_modules/google-closure-library/closure/goog' > deps.js && cat deps.js",
+    "server": "http-server",
+    "start": "run-p build:deps server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koba04/typescript-in-closure.git"
+  },
+  "keywords": ["closure-compiler", "typescript"],
+  "author": "koba04",
+  "license": "MIT",
+  "dependencies": {
+    "google-closure-library": "^20180910.0.0"
+  },
+  "devDependencies": {
+    "google-closure-compiler": "^20181008.0.0",
+    "google-closure-deps": "^20180910.1.0",
+    "http-server": "^0.11.1",
+    "npm-run-all": "^4.1.3"
+  }
+}
