@@ -14,16 +14,19 @@
     "type": "git",
     "url": "https://github.com/koba04/typescript-in-closure.git"
   },
-  "keywords": ["closure-compiler", "typescript"],
+  "keywords": [
+    "closure-compiler",
+    "typescript"
+  ],
   "author": "koba04",
   "license": "MIT",
   "dependencies": {
-    "google-closure-library": "^20180910.0.0"
+    "google-closure-library": "^20190415.0.0"
   },
   "devDependencies": {
-    "google-closure-compiler": "^20181008.0.0",
-    "google-closure-deps": "^20180910.1.0",
+    "google-closure-compiler": "^20190415.0.0",
+    "google-closure-deps": "^20190415.0.0",
     "http-server": "^0.11.1",
-    "npm-run-all": "^4.1.3"
+    "npm-run-all": "^4.1.5"
   }
 }
