@@ -7,7 +7,7 @@
     "build": "run-s tsickle build:deps build:cc",
     "build:cc": "sh script/build.sh",
     "build:deps": "closure-make-deps --no-validate --root src --closure-path './node_modules/google-closure-library/closure/goog' > public/deps.js && cat public/deps.js",
-    "server": "http-server public",
+    "server": "http-server .",
     "start": "run-s tsickle build:deps server",
     "tsickle": "tsickle --externs=externs.js",
     "test": "echo \"Error: no test specified\" && exit 1"
