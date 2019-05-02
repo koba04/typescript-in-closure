@@ -17,6 +17,7 @@ goog.scope(() => {
   <p>app.lib.sum(10, 20) => ${app.lib.sum(10, 20)}</p>
   <p>other.getMd5Hash('text') => ${other.getMd5Hash('text')}</p>
   <p>math.sum(10, 20) => ${math.sum(10, 20)}</p>
+  <p>math.googSum(10, 20) => ${math.googSum(10, 20)}</p>
   <p>math.max(10, 20, 30) => ${math.max(10, 20, 30)}</p>
   <p>React version => ${react.reactVersion()}</p>
   `;
