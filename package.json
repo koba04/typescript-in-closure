@@ -4,8 +4,8 @@
   "description": "This is a sandbox repository for TypeScript in Google Closure",
   "main": "index.js",
   "scripts": {
-    "build": "run-s tsickle build:deps build:cc",
-    "build:cc": "sh script/build.sh",
+    "build": "run-s tsickle build:cc",
+    "build:cc": "google-closure-compiler --flagfile closure-compiler-flag.txt",
     "build:deps": "closure-make-deps --no-validate --root src --closure-path './node_modules/google-closure-library/closure/goog' > public/deps.js && cat public/deps.js",
     "build:start": "run-s build start",
     "server": "http-server .",

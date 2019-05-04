@@ -1,0 +1,6 @@
+--compilation_level=ADVANCED_OPTIMIZATIONS
+--externs=externs.js
+--entry_point src/app.js
+--js_output_file=public/bundle.js
+--js src
+--js node_modules/google-closure-library/closure/goog
