@@ -19,6 +19,6 @@ I intentionally add compiled js files from TypeScript into the repository becaus
 - :white_check_mark: Use TypeScript modules from Closure scripts
 - :white_check_mark: Use Closure modules from TypeScript as any
 - :white_check_mark: Use globally installed React
-- :running: Extract type information from Closure modules for TypeScript, which could be available with [Clutz](https://github.com/angular/clutz) #4
-- :running: Use CommonJS #2
+- :running: Extract type information from Closure modules for TypeScript, which could be available with [Clutz](https://github.com/angular/clutz) [#4](https://github.com/koba04/typescript-in-closure/pull/4)
+- :running: Use CommonJS [#2](https://github.com/koba04/typescript-in-closure/pull/2)
 - :question: Gennerate `.d.ts` for Closure Library
