@@ -25,9 +25,11 @@
   "author": "koba04",
   "license": "MIT",
   "dependencies": {
-    "google-closure-library": "^20190415.0.0"
+    "google-closure-library": "^20190415.0.0",
+    "react": "^16.8.6"
   },
   "devDependencies": {
+    "@types/react": "^16.8.15",
     "google-closure-compiler": "^20190415.0.0",
     "google-closure-deps": "^20190415.0.0",
     "http-server": "^0.11.1",
