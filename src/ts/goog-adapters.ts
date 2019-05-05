@@ -1,7 +1,4 @@
-// TODO: enable type information with Clutz
-declare var app: any;
+import appLib = require('goog:app.lib');
 
-// This emits goog.require('app.lib')
-import 'goog:app.lib';
-
-export const lib = app.lib;
+const { sum } = appLib;
+export const lib = { sum };

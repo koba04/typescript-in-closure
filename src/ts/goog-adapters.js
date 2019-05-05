@@ -4,7 +4,7 @@
  */
 goog.module('goog_adapters');
 var module = module || { id: 'goog-adapters.ts' };
-// This emits goog.require('app.lib')
-var tsickle_module_1_ = goog.require('app.lib');
-/** @type {?} */
-exports.lib = app.lib;
+var appLib = goog.require('app.lib');
+var sum = appLib.sum;
+/** @type {{sum: function(number, number): number}} */
+exports.lib = { sum: sum };

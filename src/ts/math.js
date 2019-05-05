@@ -15,7 +15,7 @@ exports.sum = (/**
  * @return {number}
  */
 function (a, b) { return a + b; });
-/** @type {?} */
+/** @type {function(number, number): number} */
 exports.googSum = goog_adapters_1.lib.sum;
 /** @type {function(...number): number} */
 exports.max = max_1.max;
