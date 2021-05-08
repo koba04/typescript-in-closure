@@ -25,7 +25,7 @@
   "author": "koba04",
   "license": "MIT",
   "dependencies": {
-    "google-closure-library": "^20190415.0.0"
+    "google-closure-library": "^20200315.0.0"
   },
   "devDependencies": {
     "google-closure-compiler": "^20190415.0.0",
